@@ -12,6 +12,8 @@
 		FB050DE81E4402540090DEF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB050DE61E4402540090DEF7 /* Main.storyboard */; };
 		FB050DEA1E4402540090DEF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB050DE91E4402540090DEF7 /* Assets.xcassets */; };
 		FB050DED1E4402540090DEF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB050DEB1E4402540090DEF7 /* LaunchScreen.storyboard */; };
+		FB304CDD1E440FFB0057F2A1 /* DatosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB304CDC1E440FFB0057F2A1 /* DatosTableViewController.swift */; };
+		FB304CDF1E4417030057F2A1 /* SiguienteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB304CDE1E4417030057F2A1 /* SiguienteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FB050DE91E4402540090DEF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB050DEC1E4402540090DEF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB050DEE1E4402540090DEF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB304CDC1E440FFB0057F2A1 /* DatosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatosTableViewController.swift; sourceTree = "<group>"; };
+		FB304CDE1E4417030057F2A1 /* SiguienteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiguienteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				FB050DE91E4402540090DEF7 /* Assets.xcassets */,
 				FB050DEB1E4402540090DEF7 /* LaunchScreen.storyboard */,
 				FB050DEE1E4402540090DEF7 /* Info.plist */,
+				FB304CDC1E440FFB0057F2A1 /* DatosTableViewController.swift */,
+				FB304CDE1E4417030057F2A1 /* SiguienteViewController.swift */,
 			);
 			path = "Lista estáticas - clase 5";
 			sourceTree = "<group>";
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB304CDF1E4417030057F2A1 /* SiguienteViewController.swift in Sources */,
 				FB050DE51E4402540090DEF7 /* ViewController.swift in Sources */,
 				FB050DE31E4402540090DEF7 /* AppDelegate.swift in Sources */,
+				FB304CDD1E440FFB0057F2A1 /* DatosTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +305,7 @@
 				FB050DF31E4402540090DEF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
